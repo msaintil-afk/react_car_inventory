@@ -14,7 +14,7 @@ root.render(
 
       <Router>
         <Routes>
-          <Route path='/' element={<Home title  ={'Rugged Inventory'}/>} />
+          <Route path='/' element={<Home title  ={'Unchained⛓ Inventory'}/>} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/signin' element={<SignIn />} />
         </Routes>

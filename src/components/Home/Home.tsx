@@ -64,7 +64,7 @@ export const Home = ( props:Props) => {
         <Root>
             <NavbarContainer>
                 <Logo>
-                    <LogoA href="#">4x4 Cars</LogoA>
+                    <LogoA href="#">unchained⛓</LogoA>
                 </Logo>
                 <LogoNavigation>
                     <li>
@@ -82,7 +82,7 @@ export const Home = ( props:Props) => {
                 <MainText>
                     <h1>{props.title}</h1>
                     <p> of rugged cars</p>
-                    <Button color='primary' variant='contained' component={Link} to='/dashboard'>See the Car collection</Button>
+                    <Button color='warning' variant='contained' component={Link} to='/dashboard'>See the Car collection</Button>
                 </MainText>
             </Main>
 
