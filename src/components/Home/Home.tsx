@@ -71,10 +71,10 @@ export const Home = ( props:Props) => {
                         <NavA to='/'>Home</NavA>
                     </li>
                     <li>
-                        <NavA to='/'>Dashboard</NavA>
+                        <NavA to='/Dashboard'>Dashboard</NavA>
                     </li>
                     <li>
-                        <NavA to='/'>SignIn</NavA>
+                        <NavA to='/SignIn'>SignIn</NavA>
                     </li>
                 </LogoNavigation>
             </NavbarContainer>
